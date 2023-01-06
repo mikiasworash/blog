@@ -8,12 +8,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "emailjs": "^4.0.1",
+    "emailjs-com": "^3.2.0",
     "eslint-config-next": "^13.1.1",
     "gray-matter": "^4.0.3",
     "next": "^13.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-markdown": "^8.0.4",
-    "react-syntax-highlighter": "^15.5.0"
+    "react-syntax-highlighter": "^15.5.0",
+    "react-toastify": "^9.1.1"
   }
 }
