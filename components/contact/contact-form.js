@@ -19,10 +19,9 @@ export default function ContactForm() {
       .then(
         (result) => {
           toast.success('Message Sent!')
-          console.log(result)
         },
         (error) => {
-          toast.error(error || 'Message Failed!')
+          toast.error('Sending message Failed!')
         }
       )
 
