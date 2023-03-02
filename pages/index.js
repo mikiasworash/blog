@@ -14,7 +14,7 @@ export default function HomePage(props) {
           content="This a website where I blog about web development"
         />
       </Head>
-      <Hero />
+      {/* <Hero /> */}
       <FeaturedPosts posts={props.featuredPosts} />
     </Fragment>
   )
